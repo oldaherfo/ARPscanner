@@ -1,0 +1,34 @@
+# ARP Scanner Tool
+
+## Advertencia
+**El uso de esta herramienta es únicamente para fines educativos y de prueba. No debe utilizarse en redes o sistemas sin el permiso explícito del propietario.**
+
+Esta es una herramienta simple de escaneo de ARP construida en Python y Tkinter para la interfaz gráfica. Escanea un rango de direcciones IP y muestra las direcciones MAC y los proveedores asociados.
+
+## Características
+- Interfaz gráfica construida con Tkinter
+- Escaneo de direcciones IP
+- Identificación del proveedor de dirección MAC
+- Simple y ligero
+
+## Requisitos:
+Este proyecto requiere Python y las siguientes bibliotecas:
+- scapy
+- requests
+- tkinter
+
+## Cómo Usar:
+1. Clona este repositorio.
+2. Instala las dependencias requeridas utilizando `pip install -r requirements.txt`.
+3. Ejecuta el archivo `ARPscanner.py`.
+4. Ingresa el rango IP a escanear (por ejemplo, `192.168.1.0/24`) en el campo de entrada.
+5. Haz clic en "Comenzar Escaneo" para iniciar el escaneo.
+
+## Ejecución del Programa:
+python ARPscanner.py
+
+Tambien he dejado un archivo ejecutable "ARPscanner.exe" para que puedas probar el programa sin instalar ninguna dependencia en entornos Windows.
+
+Asegúrate de tener los permisos necesarios y de estar probando en un entorno autorizado. El ARP spoofing puede interrumpir la comunicación de la red.
+
+Este proyecto fue creado por oldaherfo - 2024. Úsalo de manera responsable.
